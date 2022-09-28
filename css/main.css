@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url(variable.css);
+
+*{   
+   padding: 0;
+   margin: 0;   
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;   
+   font-family: --font-family;
+   transition: 300ms;
+}
+
+/*  HEADER */
+#title{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     font-weight: bold;
+     font-style: italic;     
+     font-size: 50px; 
+     padding: 10px 10px 10px 50px;
+}
+
+#img-iconeinsta {
+    padding: 5px 5px;
+    position: absolute;
+    right: 20px;
+}
+
+#img-iconeface {
+    padding: 5px 5px;
+    position: absolute;
+    right: 60px;
+}
+
+.title-div-color{
+    height: 40px; 
+    background-color: rgb(6, 6, 66);
+    color: white;
+}
+
+/*   -------------- MONTAGEM DO MENU E SUB-MENU -------------*/
+.title-flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;    
+}
+
+.title-menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;     
+     width: 60%;
+}
+
+ul {    
+    display: table;
+}
+
+.title-flex > .title-menu > li {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+}
+
+.title-flex > .title-menu > li:hover > ul {
+    display: block;
+}
+
+.title-flex > .title-menu > li a {    
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.title-flex > .title-menu > li ul {    
+    position: absolute;
+    z-index: 999;
+    width: 150px;
+    background: rgb(1, 1, 48);
+    display: none;
+}   
+
+.title-flex > .title-menu > li ul li:hover { 
+    color: white;
+    background-color: cornflowerblue;
+}
+
+
+/* submenu do submenu*/
+.title-flex > .title-menu > li > ul li:hover { 
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.title-flex > .title-menu > li > ul li { 
+    display: inline-block;
+    position: relative;
+    width: 150px;
+}
+
+.title-flex > .title-menu > li > ul li:hover > ul { 
+    display: block;
+}  
+
+.title-flex > .title-menu > li > ul > li ul { 
+    position: absolute;
+    z-index: 999;
+    width: 150px;
+    background: rgb(1, 1, 48);
+    display: none;
+    margin-left: 150px;
+    margin-top: -38px;
+}
+
+/*   -------------- FIM MONTAGEM DO MENU E SUB-MENU -------------*/
+
+#secao-header{
+    padding: 70px;
+}
+
+main{  /*
+    background-image: url("../images/secao-main/lenco.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;*/
+    height: 100vh;
+    width: 100%;    
+}
+
+main > object {
+    width: 100%;
+    height: 100vh;
+}
+
+/* FIM HEADER */
+footer {
+    background-color: rgb(6, 6, 66);
+    height: 100px;
+}
