@@ -7,12 +7,13 @@ h2{
     text-align: center; 
     padding: 5px; 
     font-size: 30px;
-    font-style: italic;     
+    font-style: italic;   
+    color: darkgreen;  
 }
  
 h3{
     text-align: center; 
-    font-style: italic;     
+    font-style: italic;   
 }
 
 h4{
@@ -23,27 +24,24 @@ h4{
 .secao{
     display: flex;
     text-align: center;
-  /*  background-color: cornflowerblue;   */
-    justify-content: space-between;
+    justify-content: space-between;     
 }
  
 .div-diversos{
-    height: 350px;
     width: 350px;
     align-content: space-between;
  }   
  
- #div-atividades{
-    height: 500px;
+ .div-atividades{
     width: 350px;
-    align-content: space-between;
-
+    padding: 10px;
  }
+
  /* FIM SECTION INFORMAÇÃO */
  
 .imagens{
     border-radius: 10%;
- }
+}
 
 .imagens-fixas{
     margin: 2%;

@@ -123,18 +123,22 @@ ul {
     padding: 70px;
 }
 
-main{  /*
-    background-image: url("../images/secao-main/lenco.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;*/
+#foto{
     height: 100vh;
-    width: 100%;    
+    width: 100%;  
+    
 }
 
-main > object {
-    width: 100%;
+#foto > div {
+    opacity: 1;
     height: 100vh;
+    width: 100%; 
+    background-color: rgb(202, 238, 226); 
+}
+
+#foto > div > object{
+    height: 100vh;
+    width: 100%; 
 }
 
 /* FIM HEADER */
