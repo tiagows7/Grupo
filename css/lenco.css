@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#lenco {
+    display: flex;
+    width: 98%;
+    margin: 1%;
+}
+
+#lenco-foto{
+    width: 500px;
+    height: 600px;
+}
+
+#lenco-texto {
+    text-align: center;
+    margin: 5%;
+}
+
+#lenco-texto h2{
+    margin-bottom: 20px;
+}
+
