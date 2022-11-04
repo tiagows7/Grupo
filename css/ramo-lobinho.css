@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+#ramo-lobinho{
+    width: 100%;
+    background-color: yellow;
+}
+
 .logo-lobinho {
     background-color: yellow;
     width: auto;
@@ -56,7 +61,7 @@
     margin-bottom: 30px;
 }
 
-#lobinho-alcateia h1 {
+#lobinho-alcateia h2 {
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -65,7 +70,7 @@
     position: relative;
     width: 100%;
     height: 600px;
-    background-image: url("../../../imagens/ramos/lobinho/altcateia-lobo.jpg");
+    background-image: url("../images/grupo/ramo-lobinho/alcateia/altcateia-lobo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -76,6 +81,7 @@
 }
 
 .lobinho-matilha {
+    text-align: center;
     margin-left: 20px;
 }
 

@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#ramo-senior{
+    background-color: #831d1c;
+    color: white;
+}
+
+.logo-senior {
+    background-color: #831d1c;
+    width: auto;
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.informacao {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-sinal {
+    float: left;
+}
+
+.img-sinal img {
+    width: 200px;
+    height: 210px;
+}
+
+.informacao-senior {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.informacao-senior h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.informacao-senior-img {
+    margin-bottom: 20px;
+}
+
+.foto-tropa {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/grupo/ramo-senior/tropa.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.foto-tropa--full {
+    background-size: 100% 100%;
+}
+
+#senior-tropa {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#tabela-tropa {
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#tabela-tropa td {
+    border: 1px solid black;
+}
+
+#tabela-tropa th {
+    font-size: 30px;
+    padding: 10px;
+}
+
+#foto-patrulha {
+    float: left;
+}
+
+#tabela-tropa tr td {
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+}
+
+#tabela-tropa tr td p {
+    margin-top: 20px;
+}
